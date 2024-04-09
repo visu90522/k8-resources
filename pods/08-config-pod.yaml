@@ -12,7 +12,7 @@ spec:
         configMapKeyRef:
           name: course-config
           key: COURSE
-    - name: PERSION
+    - name: TRAINER
       valueFrom:
         configMapKeyRef:
           name: course-config
