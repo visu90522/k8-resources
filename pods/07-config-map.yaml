@@ -4,6 +4,6 @@ metadata:
   name: course-config
 data:
   COURSE: Devops
-  DURATION: 180m
+  DURATION: 100m
   TRAINER: Vishea
   
