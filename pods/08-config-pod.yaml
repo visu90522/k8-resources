@@ -13,12 +13,12 @@ spec:
           name: course-config
           key: COURSE
     - name: PERSION
-        valueFrom:
-          configMapKeyRef:
-            name: course-config
-            key: TRAINER
+      valueFrom:
+        configMapKeyRef:
+          name: course-config
+          key: TRAINER
     - name: DURATION
-        valueFrom:
-          configMapKeyRef:
-            name: course-config
-            key: DURATION
+      valueFrom:
+        configMapKeyRef:
+          name: course-config
+          key: DURATION
