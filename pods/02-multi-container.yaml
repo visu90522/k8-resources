@@ -4,7 +4,7 @@ metadata:
   name: multi-container
 spec:
   containers:
-    - name: nginx
-      image: nginx
-    - name: sidecar
-      image: almalinux:8
+  - name: nginx
+    image: nginx
+  - name: sidecar
+    image: almalinux:8
